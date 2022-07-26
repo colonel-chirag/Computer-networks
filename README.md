@@ -133,4 +133,61 @@ It is a compressed version of the OSI model with only 4 layers. It was developed
 
 16. Differentiate OSI Reference Model with TCP/IP Reference Model
 ![image](https://user-images.githubusercontent.com/59536110/180773915-b25a4ec7-7c1a-4828-b356-a1929ec0956f.png)
+![image](https://user-images.githubusercontent.com/59536110/181082295-1792f125-c3c0-400d-b396-cf24ab4b11b8.png)
 
+17. What are the HTTP and the HTTPS protocol?
+HTTP is the HyperText Transfer Protocol which defines the set of rules and standards on how the information can be transmitted on the World Wide Web (WWW).  It helps the web browsers and web servers for communication. It is a ‘stateless protocol’ where each command is independent with respect to the previous command. HTTP is an application layer protocol built upon the TCP. It uses port 80 by default.
+
+HTTPS is the HyperText Transfer Protocol Secure or Secure HTTP. It is an advanced and secured version of HTTP. On top of HTTP, SSL/TLS protocol is used to provide security. It enables secure transactions by encrypting the communication and also helps identify network servers securely. It uses port 443 by default.
+
+18. What is the SMTP protocol?
+SMTP is the Simple Mail Transfer Protocol. SMTP sets the rule for communication between servers. This set of rules helps the software to transmit emails over the internet. It supports both End-to-End and Store-and-Forward methods. It is in always-listening mode on port 25.
+![image](https://user-images.githubusercontent.com/59536110/181082374-de4bb769-2537-4306-b1bb-85f0fd745cbf.png)
+
+19. What is the DNS?
+DNS is the Domain Name System. It is considered as the devices/services directory of the Internet. It is a decentralized and hierarchical naming system for devices/services connected to the Internet. It translates the domain names to their corresponding IPs. For e.g. interviewbit.com to 172.217.166.36. It uses port 53 by default.
+
+20. What is the use of a router and how is it different from a gateway?
+The router is a networking device used for connecting two or more network segments. It directs the traffic in the network. It transfers information and data like web pages, emails, images, videos, etc. from source to destination in the form of packets. It operates at the network layer. The gateways are also used to route and regulate the network traffic but, they can also send data between two dissimilar networks while a router can only send data to similar networks.
+
+Advanced Interview Questions
+21. What is the TCP protocol?
+TCP or TCP/IP is the Transmission Control Protocol/Internet Protocol. It is a set of rules that decides how a computer connects to the Internet and how to transmit the data over the network. It creates a virtual network when more than one computer is connected to the network and uses the three ways handshake model to establish the connection which makes it more reliable.
+
+22. What is the UDP protocol?
+UDP is the User Datagram Protocol and is based on Datagrams. Mainly, it is used for multicasting and broadcasting. Its functionality is almost the same as TCP/IP Protocol except for the three ways of handshaking and error checking. It uses a simple transmission without any hand-shaking which makes it less reliable.
+
+23. Compare between TCP and UDP
+![image](https://user-images.githubusercontent.com/59536110/181082471-87ec2a98-d177-4d48-96e7-b707fadd7a24.png)
+
+24. What is the ICMP protocol?
+ICMP is the Internet Control Message Protocol. It is a network layer protocol used for error handling. It is mainly used by network devices like routers for diagnosing the network connection issues and crucial for error reporting and testing if the data is reaching the preferred destination in time. It uses port 7 by default.
+
+25. What do you mean by the DHCP Protocol?
+DHCP is the Dynamic Host Configuration Protocol.
+
+It is an application layer protocol used to auto-configure devices on IP networks enabling them to use the TCP and UDP-based protocols. The DHCP servers auto-assign the IPs and other network configurations to the devices individually which enables them to communicate over the IP network. It helps to get the subnet mask, IP address and helps to resolve the DNS. It uses port 67 by default.
+
+26. What is the ARP protocol?
+ARP is Address Resolution Protocol. It is a network-level protocol used to convert the logical address i.e. IP address to the device's physical address i.e. MAC address. It can also be used to get the MAC address of devices when they are trying to communicate over the local network.
+
+![image](https://user-images.githubusercontent.com/59536110/181082526-559a6fed-fd5b-4528-b84b-6c7487d5823b.png)
+
+27. What is the FTP protocol?
+FTP is a File Transfer Protocol. It is an application layer protocol used to transfer files and data reliably and efficiently between hosts. It can also be used to download files from remote servers to your computer. It uses port 27 by default.
+
+28. What is the MAC address and how is it related to NIC?
+MAC address is the Media Access Control address. It is a 48-bit or 64-bit unique identifier of devices in the network. It is also called the physical address embedded with Network Interface Card (NIC) used at the Data Link Layer. NIC is a hardware component in the networking device using which a device can connect to the network.
+
+29. Differentiate the MAC address with the IP address
+The difference between MAC address and IP address are as follows:
+![image](https://user-images.githubusercontent.com/59536110/181082594-ac83185a-c184-489d-beef-889d148f9841.png)
+
+30. What is a subnet?
+A subnet is a network inside a network achieved by the process called subnetting which helps divide a network into subnets. It is used for getting a higher routing efficiency and enhances the security of the network. It reduces the time to extract the host address from the routing table.
+![image](https://user-images.githubusercontent.com/59536110/181082668-247ccdf1-a01c-4293-a965-ba7810518dda.png)
+
+![image](https://user-images.githubusercontent.com/59536110/181082719-3b482ed1-0ae2-41a6-b982-560c0e5cef9f.png)
+
+33. What is the firewall?
+The firewall is a network security system that is used to monitor the incoming and outgoing traffic and blocks the same based on the firewall security policies. It acts as a wall between the internet (public network) and the networking devices (a private network). It is either a hardware device, software program, or a combination of both. It adds a layer of security to the network.
