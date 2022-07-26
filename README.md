@@ -191,3 +191,24 @@ A subnet is a network inside a network achieved by the process called subnetting
 
 33. What is the firewall?
 The firewall is a network security system that is used to monitor the incoming and outgoing traffic and blocks the same based on the firewall security policies. It acts as a wall between the internet (public network) and the networking devices (a private network). It is either a hardware device, software program, or a combination of both. It adds a layer of security to the network.
+![image](https://user-images.githubusercontent.com/59536110/181082855-5c931241-0dab-4db2-b1ba-d7e6eb31998a.png)
+
+34. What are Unicasting, Anycasting, Multicasting and Broadcasting?
+Unicasting: If the message is sent to a single node from the source then it is known as unicasting. This is commonly used in networks to establish a new connection.
+Anycasting: If the message is sent to any of the nodes from the source then it is known as anycasting. It is mainly used to get the content from any of the servers in the Content Delivery System.
+Multicasting: If the message is sent to a subset of nodes from the source then it is known as multicasting. Used to send the same data to multiple receivers. 
+Broadcasting: If the message is sent to all the nodes in a network from a source then it is known as broadcasting. DHCP and ARP in the local network use broadcasting.
+35. What happens when you enter google.com in the web browser?
+Below are the steps that are being followed:
+
+Check the browser cache first if the content is fresh and present in cache display the same.
+If not, the browser checks if the IP of the URL is present in the cache (browser and OS) if not then request the OS to do a DNS lookup using UDP to get the corresponding IP address of the URL from the DNS server to establish a new TCP connection.
+A new TCP connection is set between the browser and the server using three-way handshaking.
+An HTTP request is sent to the server using the TCP connection.
+The web servers running on the Servers handle the incoming HTTP request and send the HTTP response.
+The browser process the HTTP response sent by the server and may close the TCP connection or reuse the same for future requests.
+If the response data is cacheable then browsers cache the same.
+Browser decodes the response and renders the content.
+Conclusion
+In today’s world, it is very hard to stay away from the Internet and that is what makes networking one of the most important interview topics. As of 2021 if we check the facts, there is a total of 1.3 million kilometers of submarine optical fiber cables set globally to connect the world to the Internet. These cables are more than enough to revolve around the earth more than 100 times.
+
